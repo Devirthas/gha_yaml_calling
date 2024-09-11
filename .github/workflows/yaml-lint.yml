@@ -1,0 +1,19 @@
+---
+name: YAML Lint
+
+"on":
+  push:
+    paths:
+      - "**.yaml"
+      - "**.yml"
+  pull_request:
+    paths:
+      - "**.yaml"
+      - "**.yml"
+
+jobs:
+  call-workflow:
+    uses: devirthas/gha_yaml_called/.github/workflows/yaml-lint.yml@main 
+    with:
+      yaml_files: "**.yaml"
+
