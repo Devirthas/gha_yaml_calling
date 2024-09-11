@@ -17,4 +17,4 @@ jobs:
   call-workflow:
     uses: Devirthas/gha_yaml_called/.github/workflows/yaml-lint.yml@main 
     with:
-      yaml_files: "**.yaml"
+      yaml_files: "**/*.yaml"
