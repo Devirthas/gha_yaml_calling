@@ -13,7 +13,7 @@ name: YAML Lint
 
 jobs:
   call-workflow:
-    uses: devirthas/gha_yaml_called/.github/workflows/yaml-lint.yml@main 
+    uses: Devirthas/gha_yaml_called/.github/workflows/yaml-lint.yml@main 
     with:
       yaml_files: "**.yaml"
 
