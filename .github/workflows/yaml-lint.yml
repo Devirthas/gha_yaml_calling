@@ -11,8 +11,6 @@ on:
       - "**/*.yaml"
       - "**/*.yml"
   workflow_dispatch:
-
-
 jobs:
   call-workflow:
     uses: Devirthas/gha_yaml_called/.github/workflows/yaml-lint.yml@main
