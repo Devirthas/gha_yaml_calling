@@ -1,6 +1,5 @@
 ---
 name: YAML Lint
-
 on:
   push:
     paths:
